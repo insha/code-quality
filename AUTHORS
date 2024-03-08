@@ -1,0 +1,7 @@
+This repository is created, developed, and maintained by Farhan Ahmed.
+
+A full list of contributors is available from git using the command:
+
+```
+git shortlog -sne
+```

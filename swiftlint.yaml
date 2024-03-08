@@ -1,0 +1,108 @@
+excluded:
+  - Scripts
+  - Documentation
+  - External
+  - Vendors
+
+disabled_rules:
+  - closing_brace
+  - discarded_notification_center_observer
+  - discouraged_optional_collection
+  - multiple_closures_with_trailing_closure
+  - opening_brace
+  - statement_position
+  - trailing_comma
+  - unused_setter_value
+  - closure_body_length
+  - trailing_closure
+
+opt_in_rules:
+  - closure_body_length
+  - contains_over_first_not_nil
+  - convenience_type
+  - empty_count
+  - empty_string
+  - fallthrough
+  - fatal_error_message
+  - first_where
+  - force_unwrapping
+  - implicit_return
+  - private_action
+  - private_outlet
+  - sorted_imports
+  - yoda_condition
+
+analyzer_rules:
+  - unused_import
+
+force_unwrapping:
+  severity: error
+private_outlet:
+  severity: error
+private_action:
+  severity: error
+notification_center_detachment:
+  severity: error
+empty_enum_arguments:
+  severity: error
+empty_parentheses_with_trailing_closure:
+  severity: error
+redundant_objc_attribute:
+  severity: error
+fatal_error_message:
+  severity: error
+fallthrough:
+  severity: error
+empty_string:
+  severity: error
+empty_count:
+  severity: error
+return_arrow_whitespace:
+  severity: error
+vertical_parameter_alignment:
+  severity: error
+trailing_whitespace:
+  severity: error
+vertical_whitespace:
+  severity: error
+
+nesting:
+  type_level: 2
+
+function_parameter_count:
+  warning: 4
+  error: 5
+  ignores_default_parameters: false
+
+file_length:
+  warning: 500
+  error: 600
+
+line_length:
+    warning: 150
+    error: 170
+    ignores_comments: true
+
+type_body_length:
+  warning: 250
+  error: 400
+
+type_name:
+  allowed_symbols: ["_"]
+  max_length:
+    warning: 30
+    error: 40
+
+identifier_name:
+  allowed_symbols: ["_"]
+  excluded: ["id"]
+
+function_body_length:
+  warning: 100
+  error: 110
+
+cyclomatic_complexity:
+  warning: 10
+  error: 20
+
+reporter: "xcode"

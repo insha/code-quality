@@ -1,0 +1,17 @@
+# file options
+
+--exclude Scripts, Documentation, External, Vendors
+
+# format options
+
+--allman true 
+--indent 4
+--elseposition next-line
+--patternlet hoist
+--semicolons never
+--shortoptionals always
+--stripunusedargs always
+--trimwhitespace always
+--wraparguments after-first
+--wrapcollections before-first
+--wrapparameters after-first
